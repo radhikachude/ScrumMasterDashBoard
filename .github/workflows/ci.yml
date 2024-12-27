@@ -29,7 +29,7 @@ jobs:
 
 
       - name: Build docker image
-        run: docker build -t radhikaschude/ScrumMasterUserManagment .
+        run: docker build -t radhikaschude/scrummasterusermanagment .
 
       - name: Publish image to docker hub
-        run: docker push radhikaschude/ScrumMasterUserManagment:latest
+        run: docker push radhikaschude/scrummasterusermanagment:latest
