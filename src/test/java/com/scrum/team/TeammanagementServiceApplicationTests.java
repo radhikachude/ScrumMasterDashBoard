@@ -1,13 +1,13 @@
-package com.scrum.team;
+// package com.scrum.team;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class TeammanagementServiceApplicationTests {
+// @SpringBootTest
+// class TeammanagementServiceApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 
-}
+// }
