@@ -1,4 +1,4 @@
-package com.scrum.team.config;
+/*package com.scrum.team.config;
 
 import com.scrum.team.service.JWTService;
 import com.scrum.team.service.MyUserDetailsService;
@@ -38,7 +38,7 @@ public class JwtFilter extends OncePerRequestFilter {
           /*UserDetails userDetails;
             userDetails = context.getBean(MyUserDetailsService.class)
                     .loadUserByUsername(username);*/
-            UserDetails userDetails = myUserDetailsService.loadUserByUsername(username);
+          /*  UserDetails userDetails = myUserDetailsService.loadUserByUsername(username);
             if(jwtService.validateToken(token,userDetails))
               {
                   UsernamePasswordAuthenticationToken authtoken=
@@ -49,4 +49,4 @@ public class JwtFilter extends OncePerRequestFilter {
         }
         filterChain.doFilter(request,response);
     }
-}
+}*/
