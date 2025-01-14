@@ -1,4 +1,4 @@
-package com.scrum.team.config;
+/*package com.scrum.team.config;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -55,7 +55,7 @@ public class SecurityConfig {
         return new InMemoryUserDetailsManager(details1,details2);
     }*/
 
-    @Bean
+  /*  @Bean
     public AuthenticationProvider authenticationProvider()
     {
         DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
@@ -68,4 +68,4 @@ public class SecurityConfig {
     public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
        return config.getAuthenticationManager();
     }
-}
+}*/
